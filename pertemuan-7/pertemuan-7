@@ -87,7 +87,86 @@ switch (hari){
     seragamSekolah = "baju bebas";
 }
 
+//menggunakan loop
+
+
+ /*
+    for loop
+*/
+
+for (let i = 1; i <= 10; i++){
+    console.log (i);
+}
+
+//for/in loop 
+
+const buku = {
+    judul: "Harry potter and the philosopher's stone",
+    pengarang: "j. k. Rowling",
+    tahun: 1997
+};
+for (x in buku){
+    console.log(x, ':',buku[x];)
+}
+
+const Mobil = {
+    merek: "Toyota alphard",
+    warna: "Hitam",
+    tahun: 2019
+};
+for (x in mobil){
+    console.log(x, ':',mobil[x])
+}
 //
 
+/*
+    for/of loop
+*/
 
+const buku = ["Game of thrones: A song of ice and fire",
+"Harry potter and the philosopher's stone",
+"Lord of the rings: the fellowship of the ring"
+];
+for (x of buku){
+    console.log(x);
+}
+
+//
+
+/*
+   while loop 
+*/
+
+let i = 1;
+
+while (i <=10){
+    console.log (i);
+    i++;
+}
+
+let i = 10;
+
+while (i <=100){
+    console.log (i);
+    i++;
+}
+//
+
+/*
+    Do While loop
+*/
+
+let i = 1;
+
+do{
+    console.log (i);
+    i++;
+}while (i <= 10);
+
+let i = 10;
+
+do{
+    console.log (i);
+    i++;
+}while (i <= 100);
 
