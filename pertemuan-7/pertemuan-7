@@ -1,0 +1,93 @@
+/*
+   menggunakan if, else if dan else
+*/
+
+// digunakan hanya ada 1 kondisi
+
+if  (kondisi) {
+    // masukan kode yang akan dijalankan di sini apabila kondisi tercapai
+}
+
+// if else
+if (kondisi){
+    //masukan kode yang akan di jalankan di sni apabila kondisi tercapai
+} else {
+    //masukan kode yang akan dijalankandi sini apabila kondisi tidak tercapai
+}
+
+// if..else..if..else
+
+if (kondis){
+    //masukan kode yang dijalankan apabila kondisi tercapai
+} else if (kondisi2){
+    //masukan kode yang akan dijalankan apabila kondisi tidak tercapaidan kondisi2 tercapai
+} else if (kondisi3){
+    //masukan kode yang akan dijalankan di sini apabila kondisi1 dan kondisi2 tidak tercapaidan kondisi3 tercapai
+}..{
+
+}else{
+    //masukan kode yang akan dijalankan di sini apabila semua kondisi di atas tidak tercapai
+}
+
+//contoh penggunaan
+
+let nilaiAndi = 95;
+
+if (nilaiAndi > 80){
+    console.log("SANGAT MEMUASKAN");
+}else if (nilaiAndi >= 60 && nilaiAndi <= 80){
+    console.log("MEMUASKAN");
+}else{
+    console.log("JAGAN MENYERAH, COBA LAGI");
+}
+
+//menggunakan switch dan case
+
+//contoh penggunaan
+
+let seragamSekolah;
+let hari = "senin";
+
+switch (hari){
+    case "senin":
+    seragamSekolah = "kameja putih bawahan merah";
+    break;
+    case "selasa":
+    seragamSekolah = "kameja hijau bawahan hitam";
+    break;
+    case "rabu":
+    seragamSekolah = "kameja putih bawahan putih";
+    break;
+    case "kamis":
+    seragamSekolah = "kameja batik merah bawahan hitam";
+    break;
+    case "jumat";
+    seragamSekolah  = "baju pramuka";
+    break;
+    default:
+    seragamSekolah = "baju bebas";
+}
+
+//apabila kita mempunyai dua atau lebih kondisi yang berbeda tetapi keputusan dijalankan sama.
+
+let seragamSekolah;
+let hari = "senin";
+
+switch (hari){
+    case "senin":
+    case "selasa":
+    case "rabu":
+    case "kamis":
+    seragamSekolah = "kameja putih bawahan merah";
+    break;
+    case "jumat":
+    seragamSekolah = "baju pramuka";
+    break;
+    default:
+    seragamSekolah = "baju bebas";
+}
+
+//
+
+
+
